@@ -1,0 +1,38 @@
+
+body {
+  background-color: #e4f8ff;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: darkblue;
+}
+
+h2 {
+  color: rgb(0, 70, 190);
+}
+.testo {
+  color: #333;
+  font-size: 18px;
+}
+
+section {
+ padding: 2px 10px 2px 10px
+}
+
+.full-width {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.two-columns {
+  display: inline-block;
+  gap: 20px;
+  
+}
+
+.left, .right {
+  display: block;
+  flex: 50% 50%;            /* 50% + 50% */
+}
