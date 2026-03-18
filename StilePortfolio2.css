@@ -137,8 +137,6 @@ gap:20px;
 
 .about-image img{
 width:60%;
-height:100%;
-object-fit:cover;
 }
 
 .testo-about {
@@ -333,4 +331,63 @@ background:#5aa5ef;
 
 .contact-right img{
 width:80%;
+}
+
+  /* VISUALE ADATTATA PER RESTINGIMENTI */
+@media (max-width: 768px) {
+
+  /* HOME */
+  .home {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .home-left {
+    justify-content: center;
+  }
+
+  .home-right {
+    justify-content: center;
+    margin-left: 0;
+  }
+
+  .about-me {
+    grid-template-columns: 1fr;
+  }
+
+  .about-image {
+    order: 2;
+    display: flex;
+    justify-content: center;
+  }
+
+  .about-content {
+    order: 1;
+  }
+
+  .skills {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .skills-container {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .experience-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .circle {
+    order: 1;
+  }
+
+  .experience-list {
+    order: 2;
+    text-align: left;
+  }
+
 }
