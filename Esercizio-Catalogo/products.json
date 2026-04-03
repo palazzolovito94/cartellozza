@@ -1,0 +1,12 @@
+[
+    {"id": 1, "marchio": "Apple", "prodotto": "Laptop", "categoria": "Elettronica", "prezzo": 1500},
+    {"id": 2, "marchio": "Samsung", "prodotto": "Smartphone", "categoria": "Elettronica", "prezzo": 800},
+    {"id": 3, "marchio": "Sony", "prodotto": "Televisore", "categoria": "Elettronica", "prezzo": 1200},
+    {"id": 4, "marchio": "Nike", "prodotto": "Scarpe da corsa", "categoria": "Abbigliamento", "prezzo": 100},
+    {"id": 5, "marchio": "Adidas", "prodotto": "T-shirt sportiva", "categoria": "Abbigliamento", "prezzo": 30},
+    {"id": 6, "marchio": "Dell", "prodotto": "Desktop", "categoria": "Elettronica", "prezzo": 900},
+    {"id": 7, "marchio": "HP", "prodotto": "Stampante", "categoria": "Elettronica", "prezzo": 200},
+    {"id": 8, "marchio": "Puma", "prodotto": "Felpa con cappuccio", "categoria": "Abbigliamento", "prezzo": 50},
+    {"id": 9, "marchio": "Under Armour", "prodotto": "Pantaloni sportivi", "categoria": "Abbigliamento", "prezzo": 40},
+    {"id": 10, "marchio": "Lenovo", "prodotto": "Tablet", "categoria": "Elettronica", "prezzo": 300}
+]

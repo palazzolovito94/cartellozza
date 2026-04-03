@@ -136,6 +136,7 @@ gap:20px;
 }
 
 .about-image img{
+  border-radius: 8px;
 width:60%;
 }
 
@@ -262,6 +263,7 @@ width:200px;
 height:200px;
 border-radius:50%;
 object-fit:cover;
+margin-left:20px
 }
 
 .experience-list{
@@ -294,16 +296,23 @@ scroll-snap-align:center;
 }
 
 /*CONTATTI*/
-.contact{
-display:grid;
-grid-template-columns:1fr 1fr;
-align-items:center;
-gap:40px;
-padding:60px 0;
+.contact {
+  display: flex;
+  flex-direction: column;
+  padding: 60px 0;
+  gap: 40px;
 }
 
 .contenuto-contatti {
-padding:0px 5px 0px 20px
+  display: flex;
+  gap: 20px; 
+}
+
+.contact-left img {
+  border-radius: 8px;
+  width: 100%;
+  max-width: 400px;
+  margin-left:20px
 }
 
 .contact-desc{
@@ -389,5 +398,9 @@ width:80%;
     order: 2;
     text-align: left;
   }
-
+  
+  .contenuto-contatti {
+    flex-direction: column;
+    text-align: center;
+  }
 }
